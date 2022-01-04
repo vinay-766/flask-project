@@ -1,37 +1,39 @@
 body{
-  background-color: #1c1a1a;
+    background-color: #1c1a1a;
 }
-.btn-color{
-  background-color: #0e1c36;
-  color: #fff;
-  
+.submit{
+    background-color: #0e1c36;
+    color: #fff;
+    margin-bottom: 8px;
 }
-
-.profile-image-pic{
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
+.imgsize{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
-
-.mb-3 {
-  text-align: center;margin-bottom: 10px;
+.inp{
+    text-align: center;
+    margin-bottom: 10px;
 }
-
-.text-center {
-  text-align: center;
-  margin-bottom: 15px;
-  color: red;
-  background-color: beige;
+.body{
+    text-align: center;
+    margin-bottom: 2px;
+    color: red;
+    background-color: beige;
 }
-
-.cardbody-color{
-  background-color: #ebf2fa;
-  padding: 20px;
-  width: 500px;
-  margin: 0 auto;
-
+.container{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
 }
-
-a{
-  text-decoration: none;
+.msg{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom:2px ;
 }
+.resister{
+    background-color: #0e1c36;
+    color: #fff;
+    margin-bottom: 8px;}
