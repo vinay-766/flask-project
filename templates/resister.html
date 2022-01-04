@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/bubbles/344/login-rounded-right.png">
+    <title>Registration page</title>
     <link rel="stylesheet" href="/static/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/bubbles/344/login-rounded-right.png">
 </head>
-
 <body>
     <div class="container">
         <div class="body">
-            <h2>Login Form</h2>
-            <form class="class body" action="http://127.0.0.1:5000/user" method="post">
+            <h2>Registration Form</h2>
+            <form class="class body" action="http://127.0.0.1:5000/registration" method="post">
                 <div class="img">
                     <img class="imgsize" src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png" width="200px" alt="profile picture">
                 </div>
@@ -28,14 +24,10 @@
                     {{msg}}
                 </div>
                 <div>
-                    <input class="submit" type="submit" value="login">
+                    <input class="submit" type="submit" value="Register">
                 </div>
             </form>
-            <a href="http://127.0.0.1:5000/resister"> <button class="resister">Resister</button></a>
-
-
         </div>
     </div>
 </body>
-
 </html>

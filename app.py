@@ -42,5 +42,18 @@ def logout():
         return render_template("logout.html")
 
 
+@app.route("/resister")
+def resister():
+    return render_template("resister.html")
+
+
+@app.route("/registration", methods=["GET", "POST"])
+def registration():
+    username = request.form["Username"]
+    password = request.form["Password"]
+    cur.execute("insert into admin_login(Username, Password) values(%s,%s)", (username, password))
+    return render_template("message.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
